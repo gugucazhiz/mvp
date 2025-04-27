@@ -1,8 +1,12 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import { Typography } from "@mui/material";
+import FormColaborador from "@/app/ui/forms/formscolaborator";
 
 export default function Home() {
   return (
-    <h1>Hello Word</h1>
+    <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+      <Typography variant="h2"> Formulario </Typography>
+      
+      <FormColaborador/>
+    </div>
   );
 }
