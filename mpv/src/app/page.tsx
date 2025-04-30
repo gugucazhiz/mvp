@@ -1,12 +1,11 @@
 import { Typography } from "@mui/material";
 import FormColaborador from "@/app/ui/forms/formscolaborator";
-
+import PagesLayout from "./admin/layout";
 export default function Home() {
   return (
-    <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-      <Typography variant="h2"> Formulario </Typography>
-      
-      <FormColaborador/>
+    <div>
+        <div>Tela Login
+        </div>
     </div>
   );
 }
