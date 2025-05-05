@@ -4,11 +4,12 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
-import {addTest}
+//import {addTest} from '@/path/to/module';
 
 export default function FormColaborador() {
     return (
-        <form action={addTest}>
+        //<form action={}>
+        <div>
             <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
 
                 <Box sx={{ display: 'flex', flexDirection: 'column', margin: 4, gap: 2, width: "300px" }}>
@@ -29,6 +30,6 @@ export default function FormColaborador() {
                     <Button variant="contained" color="primary"> Salvar </Button>
                 </Box>
             </Box>
-        </form>
+    </div> // </form>
     )
 }
